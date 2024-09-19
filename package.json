@@ -1,0 +1,22 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "Get fun with playwright automation test tool",
+  "main": "index.js",
+  "scripts": {
+    "test:headed": "npx playwright test --headed",
+    "test:headless": "npx playwright test",
+    "test:ui": "npx playwright --ui",
+    "test:chromium": "npx playwright test --headed --project=chromium",
+    "test:firefox": "npx playwright test --headed --project=firefox",
+    "test:webkit": "npx playwright test --headed --project=webkit",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.1",
+    "@types/node": "^22.5.5"
+  }
+}
